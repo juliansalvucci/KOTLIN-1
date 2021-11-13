@@ -7,16 +7,24 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity ="center_horizontal"
+    android:padding="64dp"
     tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="escribe algo"/>
 
     <Button
         android:id="@+id/btnPlay"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="PLAY"/>
+        android:text="PLAY"
+        android:layout_margin="16dp"/>
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/tvStatus"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Kotlin"/>
