@@ -1,8 +1,12 @@
 package com.example.fundamentoskotlin
 
-class Principal {
+class Principal 
+{
+    fun main()
+    {
 
-    fun main(){
+        //sayHello()
+
         newTopic("Hola Kotlin")
 
         newTopic("Variables y constantes")
@@ -28,9 +32,12 @@ class Principal {
         objNull2 = 123
     }
 
-    fun newTopic(topic:String){
+    fun newTopic(topic:String)
+    {
         println(topic)
         print(topic)
 
     }
+
+    
 }
